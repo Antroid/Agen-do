@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/task_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/task_item_selector"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:lines="1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/timestamp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Title" />
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toLeftOf="@id/task_completed"
+        tools:text="Description" />
+
+    <ImageView
+        android:id="@+id/task_completed"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/task_done"
+        app:layout_constraintTop_toTopOf="@id/description"
+        app:layout_constraintBottom_toBottomOf="@+id/description"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="12/12/24 12:11 pm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/selected_task_drawable" android:state_activated="true" />
+    <item android:drawable="@drawable/regular_task_drawable" />
+</selector>

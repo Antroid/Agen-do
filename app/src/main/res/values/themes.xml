@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AMToDoList" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnSecondary">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="Theme.AMToDoList" parent="Base.Theme.AMToDoList" />
+</resources>

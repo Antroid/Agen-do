@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Agen-do</string>
+    <string name="empty_in_to_do_list">Empty in to do list</string>
+    <string name="save_a_to_do_item_and_it_will_show_up_here">Save a to do item and it will show up here</string>
+    <string name="empty_todo_list_desc">Empty todo list</string>
+    <string name="add_todo_item_desc">Add todo item</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_complete_tasks">Complete tasks</string>
+    <string name="action_undo_tasks">Undo tasks</string>
+    <string name="todo_list">Agen-do List</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="set_a_task">Set a task</string>
+    <string name="task_was_successfully_created">Task was successfully created</string>
+    <string name="task_was_successfully_updated">Task was successfully updated</string>
+    <string name="undo">Undo</string>
+    <string name="undo_delete">Undo delete?</string>
+    <string name="tasks_were_successfully_deleted">Tasks were successfully deleted</string>
+</resources>
