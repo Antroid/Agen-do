@@ -26,25 +26,25 @@ How to Build:
 4. Open the project in Android Studio and you need to be able to run it from there.
 
 How to use:
- - Add new task
- -   Click on '+' at the bottom of the screen to enter add new task screen
- -   Once finished click save and you will return to the main screen (todo list) with the new task
- - Update exiting task
- -   Click on a task to enter the update mode screen of edit a task
- -   Once finsih click update and you will return to the main screen (todo list) with the updaetd task, the timestamp will be updated as well
- - Selecting tasks
+1. Add new task
+ * Click on '+' at the bottom of the screen to enter add new task screen
+ * Once finished click save and you will return to the main screen (todo list) with the new task
+2. Update exiting task
+ * Click on a task to enter the update mode screen of edit a task
+ * Once finsih click update and you will return to the main screen (todo list) with the updaetd task, the timestamp will be updated as well
+3. Selecting tasks
  -   The user can long press on a task to open a context menu (support multiple selection)
  -   Once in this mode, you will see the following options in the context menu
  -      Delete 
  -      Complete - if the user select tasks which are not completed, click on complete icon to apply the changes, the timestamp will be updated as well
  -      Not completed - if the user select tasks which are completed, click on not complete icon to apply the changes, the timestamp will be updated as well
  -      (*) If the user selected both completed and uncompleted tasks complete and no completed options will be hidden
- -  Delete tasks
+4. Delete tasks
  -      Long press on tasks you wish to delete
  -      Press delete in the context menu, the list of tasks will be updated accordingly
  -      You will see a snackbar menu with an option to undo deletion
  -         If you press on undo, the original list will apper back
  -         If you will wait till the snackbar will be dismissed the selected tasks for deletion will be permanently deleted
- -  Exit from selection mode
+5. Exit from selection mode
  -    Long press a task/tasks
  -    Press onback to exit from the selection mode
